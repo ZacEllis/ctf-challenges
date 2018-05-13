@@ -13,17 +13,22 @@ How do we store #co lo ur?
 </details>
 
 ## Files
-colour-flag-1.png
-colour-flag-2.png
-colour-flag-3.png
+[colour-flag-1.png](colour-flag-1.png)  
+[colour-flag-2.png](colour-flag-2.png)  
+[colour-flag-3.png](colour-flag-3.png)  
 
 ## Walkthrough & Flag
 <details>
 <summary>Click here to show walkthrough and flag</summary>
-Find the hex value of each colour, resulting in:
+Find the hex value of each colour, resulting in:  
+  
 ```
 46 4c 41 47 7b 43 6f 6c 30 75 72 73 5f 45 76 65 72 79 77 68 33 72 65 7d
 ```
-Run the whole hex string through a [hex to text converter](http://www.unit-conversion.info/texttools/hexadecimal/)
-You should now have the flag `FLAG{Col0urs_Everywh3re}`
+
+Run the whole hex string through a [hex to text converter](http://www.unit-conversion.info/texttools/hexadecimal/)  
+You should now have the flag 
+  ```  
+  FLAG{Col0urs_Everywh3re}  
+  ```   
 </details>
