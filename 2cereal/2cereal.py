@@ -11,16 +11,17 @@ h3R3 g-e$"""
 
 flag = """flag{M@jor_T0m_YouR_c1rCuiT$_DEAD_ther3's_som3thing_wr0nG!}"""
 
+
 closing_message = "<END TRANSMISSION>"
 
 #If True, will not print opening message and will show original character before corrupton 
-DEMO=False 
+DEMO=False
 NUM_TO_CORRUPT=2
 
 #Flips NUM_TO_CORRRUPT bits in the byte
 def corrupt_bin(string, bits):
     str_list = list(string)
-    for num in random.sample(range(0,7), bits):
+    for num in random.sample(range(0,8), bits):
         if (str_list[num] is '0'):
             str_list[num] = '1'
         else:
